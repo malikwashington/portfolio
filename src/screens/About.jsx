@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div>
+    <main>
       <h1>About</h1>
       <p>
         Hi, My name is Malik, I'm from Harlem, USA. I am a Software Engineer
@@ -24,6 +24,6 @@ export default function About() {
         produces practical, effective solutions for real-world business
         challenges.
       </p>
-    </div>
+    </main>
   );
 }
