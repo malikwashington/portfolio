@@ -12,7 +12,7 @@ h2{
 
 .icon-container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   place-items: center;
 }
 
@@ -24,7 +24,7 @@ h2{
 }
 
 #git{
-  width: 160%
+  width: 120%
 }
 
 #linkedin{
@@ -33,4 +33,22 @@ h2{
 
 #email{
   width: 80%
+}
+
+#resume{
+  color: blue
+}
+
+.project-grid{
+  display: grid;
+  gap: 3px;
+  grid-auto-flow: row dense;
+}
+
+.project{
+  color: black;
+}
+
+.project-git{
+  color: black;
 }
