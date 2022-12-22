@@ -1,0 +1,36 @@
+main{
+
+}
+
+p{
+
+}
+
+h2{
+
+}
+
+.icon-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.contact-image{
+  width: 100%;
+  display: block;
+  margin: auto;
+  /* justify-content: center; */
+}
+
+#git{
+  width: 160%
+}
+
+#linkedin{
+  width: 150%;
+}
+
+#email{
+  width: 80%
+}

@@ -8,9 +8,9 @@ export default function Nav() {
     <div className="nav-bar-component">
       <div className="title-logo">
         <NavLink to="/">
-          <img src={headshot} alt="cassette logo" className="cassette-logo" />
+          <img src={headshot} alt="Malik's smiling face" className="face" />
         </NavLink>
-        <h1 className="b-side-music">Malik Washington</h1>
+        <h1 className="title">Malik Washington</h1>
       </div>
       <div className="nav">
         <div className="navlink" activeClassName="active">

@@ -1,9 +1,10 @@
 import React from "react";
+import "./styles/Screens.css";
 
 export default function About() {
   return (
     <main>
-      <h1>About</h1>
+      <h2>About</h2>
       <p>
         Hi, My name is Malik, I'm from Harlem, USA. I am a Software Engineer
         with a passion for solving problems, both with computers and with the
