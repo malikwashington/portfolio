@@ -1,4 +1,5 @@
 import React from 'react'
+import ResumePDF from "../assets/Resume.pdf"
 import headshot from "../assets/IMG_8267.jpeg";
 import { NavLink } from 'react-router-dom';
 import './Nav.css'
@@ -23,7 +24,15 @@ export default function Nav() {
           <NavLink to="/about">About</NavLink>
         </div>
         <div className="navlink" activeClassName="active">
-          <NavLink to="/resume">Resume</NavLink>
+          <a
+            // id="resume"
+            href={ResumePDF}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+          {/* <NavLink to="/resume">Resume</NavLink> */}
         </div>
         <div className="navlink" activeClassName="active">
           <NavLink to="/contact">Contact</NavLink>
