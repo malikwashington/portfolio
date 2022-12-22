@@ -1,10 +1,11 @@
 import React from 'react'
+import './styles/Screens.css'
 
 export default function Home() {
   return (
-<>
-      <div>Home</div>
-      <div>Welcome to my portfolio pages. Feel free to look around.</div>
-</>
+<main>
+      <p>Welcome to my portfolio website.</p> 
+      <p>Feel free to look around.</p>
+</main>
   )
 }
