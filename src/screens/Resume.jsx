@@ -1,7 +1,7 @@
 import React from "react";
 import ResumePDF from "../assets/Resume.pdf";
 import { useState } from "react";
-import { Document, Page } from "react-pdf";
+import { Document, Page, View, Text, Image } from "react-pdf";
 import "./styles/Screens.css";
 
 export default function Resume() {
