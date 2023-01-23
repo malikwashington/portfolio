@@ -1,0 +1,54 @@
+main{
+
+}
+
+p{
+
+}
+
+h2{
+
+}
+
+.icon-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.contact-image{
+  width: 100%;
+  display: block;
+  margin: auto;
+  /* justify-content: center; */
+}
+
+#git{
+  width: 120%
+}
+
+#linkedin{
+  width: 150%;
+}
+
+#email{
+  width: 80%
+}
+
+#resume{
+  color: blue
+}
+
+.project-grid{
+  display: grid;
+  gap: 3px;
+  grid-auto-flow: row dense;
+}
+
+.project{
+  color: black;
+}
+
+.project-git{
+  color: black;
+}

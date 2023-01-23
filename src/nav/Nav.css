@@ -1,10 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&family=Rubik+Moonrocks&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Solid:wght@300&display=swap');
 /* font-family: 'Londrina Outline', cursive;
 font-family: 'Londrina Shadow', cursive;
 font-family: 'Londrina Solid', cursive; */
 
 .navlink {
-
   margin: 10px;
   margin-top: 0;
 }
@@ -19,14 +19,15 @@ a:hover {
   transition: 0.5s ease-in-out;
 }
 
-.b-side-music {
+.title {
   color: black;
+  font-family: "Rubik";
 }
 
 .nav-bar-component {
   width: 100%;
   background: rgb(34, 193, 195);
-  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+  /* background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%); */
   border-bottom: 3px solid white
 }
 
@@ -53,15 +54,13 @@ h1 {
   margin-top: 0;
 }
 
-
-
-.cassette-logo {
+.face {
   height: 120px;
   transition: transform .4s;
   padding: 10px;
 }
 
-.cassette-logo:hover {
+.face:hover {
   transform: scale(1.1);
 }
 
@@ -86,7 +85,7 @@ h1 {
     margin-top: 0;
   }
 
-  .cassette-logo {
+  .face {
     height: 50px;
     padding: 10px;
   }
