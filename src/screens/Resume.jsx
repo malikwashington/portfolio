@@ -1,7 +1,7 @@
 import React from "react";
 import ResumePDF from "../assets/Resume.pdf";
 import { useState } from "react";
-import { Document, Page, View, Text, Image } from "react-pdf";
+import { Document, Page } from "react-pdf";
 import "./styles/Screens.css";
 
 export default function Resume() {
@@ -17,7 +17,7 @@ export default function Resume() {
       <Document
         file={ResumePDF}
         onLoadSuccess={onDocumentLoadSuccess}
-        options={{ workerSrc: "pdf.worker.js" }}
+        options={{ workerSrc: "/pdf.worker.js" }}
       >
         <Page pageNumber={pageNumber} />
       </Document>
