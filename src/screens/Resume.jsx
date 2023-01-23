@@ -1,7 +1,7 @@
 import React from "react";
 import ResumePDF from "../assets/Resume.pdf";
 import { useState } from "react";
-import { Document, Page, View, Text, Image } from "react-pdf";
+import { Document, Page } from "react-pdf";
 import "./styles/Screens.css";
 
 export default function Resume() {
@@ -14,13 +14,21 @@ export default function Resume() {
 
   return (
     <div>
-      <Document file={ResumePDF} onLoadSuccess={onDocumentLoadSuccess}>
+      <Document
+        file={ResumePDF}
+        onLoadSuccess={onDocumentLoadSuccess}
+        options={{ workerSrc: "/pdf.worker.js" }}
+      >
         <Page pageNumber={pageNumber} />
       </Document>
       <p>
         Page {pageNumber} of {numPages}
       </p>
-      <a id="resume" href={ResumePDF} target="_blank" rel="noopener noreferrer">
+      <a
+        id="resume"
+        href={ResumePDF}
+        target="_blank"
+        rel="noopener noreferrer">
         Click here for a PDF of my resume
       </a>
     </div>
